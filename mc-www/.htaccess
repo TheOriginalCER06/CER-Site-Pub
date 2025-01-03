@@ -20,7 +20,7 @@ RewriteRule ^(.*)/?$ /$1.html  [L]
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*index\ HTTP/
 RewriteRule ^(([^/]+/)*)index$ /$1 [R=301,L]
 
-RewriteRule ^map(/.*)?$ http://play.cer06.no:26656$1 [P,L]
+RewriteRule ^map(/.*)?$ http://play.cer06.no:26656$1 [R=301,L]
 
 #RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*index\.html\ HTTP/
 #RewriteRule ^(([^/]+/)*)index\.html$ http://cer06.no/$1 [R=301,L]
