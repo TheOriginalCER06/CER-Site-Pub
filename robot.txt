@@ -1,0 +1,2 @@
+User-agent: * #om det skulle klart å komme en robot hit, blir den kastet vekk (:
+Disallow: /
